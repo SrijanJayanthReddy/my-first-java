@@ -8,7 +8,7 @@ import java.sql.*;
 public class UserServlet extends HttpServlet {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/srijan";
     private static final String JDBC_USERNAME = "root";
-    private static final String JDBC_PASSWORD = "srijan";
+    private static final String JDBC_PASSWORD = "Srijan@2003";
 
     // Method to display users
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
